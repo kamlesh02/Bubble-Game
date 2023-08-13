@@ -2,10 +2,6 @@ var timer=60;
 var score=0;
 var hitrandom_number=0;
 
-// eventBubbling()-->jispe click karnge wo element par event raise hoga, 
-// aur event lister na milne par event element ke parent par listner dhundhega , 
-// waha v na milne par  event parent ke parent ke parent par listner dhundhega 
-
 function increaseScore(){
     score+=10;
     document.querySelector("#score-value").textContent=score;
